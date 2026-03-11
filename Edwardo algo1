@@ -1,0 +1,17 @@
+Algorithme vente
+Variables
+  Prix, Pp : réel
+  n : entier
+Début
+  Afficher("Combien de produits voulez-vous acheter ?")
+  Lire(n)
+
+  Si n >= 10 alors
+      Pp <- 4500
+  Sinon
+      Pp <- 5000
+  FinSi
+
+  Prix <- n * Pp
+  Afficher("Le prix total est :", Prix, "Ar")
+Fin
