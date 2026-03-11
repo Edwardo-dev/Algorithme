@@ -1,0 +1,39 @@
+Algorithme comparaison 
+Variables 
+  a, b, c: réel 
+  début 
+afficher ("valeur de a:")
+  lire (a)
+  afficher ("valeur de b")
+  lire(b)
+  afficher ("la valeur de c")
+  lire (c)
+  si a>b ET a>c alors 
+    afficher ("a est le grand nombre")
+    sinon 
+    si b>c ET b>a alors 
+      afficher ("b est le grand nombre ")
+    sinon
+      si c>b ET c>a alors 
+        afficher ("c est le grand nombre ")
+      sinon
+        si a=b ET a=c alors 
+          afficher ("ils sont égaux ")
+        sinon
+          si a=b ET c>a alors 
+          afficher ("c est le grand nombre ")
+          sinon
+            si c=a ET b>a alors 
+              afficher ("b est le grand nombre ")
+            sinon
+              si c=b ET a>b alors 
+                afficher ("a est le grand nombre ")
+              sinon
+              fin si 
+        fin si 
+      fin si 
+    fin si 
+    fin si 
+    fin si 
+  fin si 
+fin         
