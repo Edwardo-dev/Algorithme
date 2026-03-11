@@ -1,0 +1,11 @@
+Algorithme intervalle 
+variables 
+  n: réel 
+  début 
+lire (n)
+  si n>=5 ET n<=10 alors 
+      afficher ("n appartient à l'intervalle")
+      sinon 
+afficher ("n n'appartient pas à l'intervalle")
+      fin si 
+fin 
