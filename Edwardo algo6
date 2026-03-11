@@ -1,0 +1,8 @@
+ALGORITHME sommesdes10premiersentiers
+VARIABLES 
+somme, i: entier 
+DÉBUT 
+POUR i<-0, i<10, somme<-i+1
+AFFICHER("i")
+FIN POUR
+FIN
