@@ -1,0 +1,18 @@
+Algorithme âge 
+Variables 
+  âge: entier 
+  début 
+afficher ("Quel âge a tu ?")
+  lire (âge )
+  si âge <12 alors
+    afficher ("enfant")
+    sinon 
+    si âge>=12 ET âge<18 alors 
+      afficher ("adolescent(e)")
+      sinon 
+      si âge>=18 alors 
+        afficher ("adulte")
+        fin si 
+fin si 
+    fin si 
+fin 
