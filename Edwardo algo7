@@ -1,0 +1,12 @@
+ALGORITHME sommesdesnombresentiersjusquaN
+VABleBLES
+N,i:entier
+DEBUT
+î<-0
+POUR i<-0, i<N, N<-i+1
+AFFICHER("enter la valeur de N et i")
+LIRE(N)
+LiIRE(i)
+AFFICHER ("N")
+FINPOUR
+FIN
